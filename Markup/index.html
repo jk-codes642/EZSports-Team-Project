@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZSports</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../Design/styles.css">
+
+</head>
+<body class="">
+    <header class="relative bg-cover bg-center" style="background-image: url('../Images/Gemini_Generated_Image\ \(1\)-modified.jpg'); height: 44rem;">
+        <div class="bg-black bg-opacity-40">
+            <div class="container mx-auto px-4">
+                <nav class="py-6 flex justify-between items-center">
+                    <div>
+                        <h1 class="text-white text-xl font-semibold">EZSports</h1>
+                    </div>
+                    <div class="flex items-center gap-6 md:gap-12">
+                        <ul class="hidden md:flex flex-wrap gap-x-12 text-white text-lg font-medium">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        <div class="flex items-center gap-1">
+                            <a href="#" class="text-white text-lg font-medium flex flex-row items-center">
+                                <i class="fa-solid fa-right-to-bracket mr-2"></i>
+                                Login</a>
+                        </div>
+                        <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+                            </svg>
+                        </button>
+                    </div>
+                </nav>
+                <ul id="mobile-menu" class="hidden md:hidden text-white text-lg font-medium flex-col gap-4 items-center bg-black bg-opacity-40 rounded-lg py-4 px-6 absolute top-full left-1/2 transform -translate-x-1/2">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto my-40 px-4">
+            <div class="text-center text-white font-bold">
+                <p class="mb-10 text-lg md:text-5xl sm:text-2xl">Manage your sports events <span id="typed-text" class="text-yellow-300"></span></p>
+                <p class="text-yellow-300 text-lg md:text-3xl sm:text-xl">Mastering the Game, Managing the Event</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="mr-6">
+                <button class="bg-[#313552] text-[#fed770] flex py-3 px-2 rounded-xl text-sm font-medium items-center hover:bg-[#383d5e] md:py-4 md:px-3 md:text-xl sm:text-lg" type="button">
+                    <i class="fa-solid fa-user-plus mr-3"></i>
+                    Register Now</button>
+            </div>
+            <div class="">
+                <button class="bg-[#313552] text-[#fed770] flex py-3 px-2 rounded-xl text-sm font-medium items-center hover:bg-[#383d5e] md:py-4 md:px-3 md:text-xl sm:text-lg" type="button">
+                    <i class="fa-solid fa-right-to-bracket mr-3"></i>
+                    Log In</button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="text-center mt-10">
+        <h2 class="text-3xl text-center font-bold mb-7 leading-tight text-[#313552] sm:text-4xl lg:text-5xl lg:leading-tight">What we do ?</h2>
+
+            <!-- <h1 class="text-xl text-wrap font-medium text-[#313552] mb-7 md:text-4xl sm:text-2xl">What we do?</h1>   -->
+            <p class="mx-7 text-lg text-wrap md:text-2xl md:mx-28 sm:text-xl"> At EZSports, we specialize in meticulously managing sporting events from start to finish, ensuring seamless experiences for athletes, organizers, and spectators alike. From logistics to coordination, our team delivers unparalleled efficiency, leaving you free to focus on the thrill of the game while we handle the rest.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex flex-col mt-16 md:flex-row sm:flex-row">
+            <div class="md:ml-auto md:mr-20">
+                <video id="manager-dashboard-video" class="w-full h-68 md:h-[32rem]" src="../Videos/dark-winter-forest-road-moewalls-com.mp4" controls loop></video>
+            </div>
+            <div class="flex flex-col mr-auto justify-center">
+        <!-- <h2 class="text-3xl text-center font-bold mb-7 leading-tight text-[#313552] sm:text-4xl lg:text-5xl lg:leading-tight">Event Manager Dashboard</h2> -->
+                <h1 class="text-[#313552] font-medium mb-4 md:mb-8 text-2xl md:text-4xl w-[300px]">Event Manager Dashboard</h1>
+                <ul class="flex flex-col md:gap-y-4 ml-0">
+                    <li class="flex items-center"><i class="fa-solid fa-house mr-3"></i><p class="text-lg md:text-2xl">Home</p></li>
+                    <li class="flex items-center"><i class="fa-solid fa-handshake mr-3"></i><p class="text-lg md:text-2xl">Team request & Approve</p></li>
+                    <li class="flex items-center"><i class="fa-solid fa-calendar-days mr-3"></i><p class="text-lg md:text-2xl">Schedule generator</p></li>
+                    <li class="flex items-center"><i class="fa-solid fa-certificate mr-3"></i><p class="text-lg md:text-2xl">Certificate</p></li>
+                    <li class="flex items-center"><i class="fa-solid fa-square-poll-vertical mr-3"></i><p class="text-lg md:text-2xl">Record & Result tracking</p></li>
+                    <li class="flex items-center"><i class="fa-solid fa-id-card mr-3"></i><p class="text-lg md:text-2xl">ID Card</p></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="mt-24">
+            <div class="flex flex-col mt-16 md:flex-row sm:flex-row">
+                <div class="flex flex-col md:ml-auto justify-center">
+            <!-- <h2 class="text-3xl sm:text-center font-bold mb-7 leading-tight text-[#313552] sm:text-4xl lg:text-5xl lg:leading-tight">Team Dashboard</h2> -->
+                    <h1 class="text-[#313552] font-medium mb-4 md:mb-8 text-2xl md:text-4xl w-[300px]">Team Dashboard</h1>
+                    <ul class="flex flex-col md:gap-y-4 ml-0    ">
+                        <li class="flex items-center"><i class="fa-solid fa-house mr-3"></i><p class="text-lg md:text-2xl">Home</p></li>
+                        <li class="flex items-center"><i class="fa-solid fa-handshake mr-3"></i><p class="text-lg md:text-2xl">Team request & Approve</p></li>
+                        <li class="flex items-center"><i class="fa-solid fa-calendar-days mr-3"></i><p class="text-lg md:text-2xl">Schedule generator</p></li>
+                        <li class="flex items-center"><i class="fa-solid fa-certificate mr-3"></i><p class="text-lg md:text-2xl">Certificate</p></li>
+                        <li class="flex items-center"><i class="fa-solid fa-square-poll-vertical mr-3"></i><p class="text-lg md:text-2xl">Record & Result tracking</p></li>
+                        <li class="flex items-center"><i class="fa-solid fa-id-card mr-3"></i><p class="text-lg md:text-2xl">ID Card</p></li>
+                    </ul>
+                </div>
+                <div class="md:ml-auto md:mr-20 ">
+                    <video id="manager-dashboard-video" class="w-full h-68 md:h-[32rem]" src="../Videos/dark-winter-forest-road-moewalls-com.mp4" controls loop></video>
+                </div>
+            </div>         
+        </div>
+    </section>
+
+    <section>
+        <div class="text-center mt-16">
+        <h2 class="text-3xl text-center font-bold mb-7 leading-tight text-[#313552] sm:text-4xl lg:text-5xl lg:leading-tight">About Us</h2>
+            <!-- <h1 class="text-xl text-wrap font-medium text-[#313552] mb-7 md:text-4xl sm:text-2xl">About us</h1>   -->
+            <p class="mx-7 text-lg text-wrap md:text-2xl md:mx-28 sm:text-xl"> Hello from EZSports! We're 6th-semester Computer Science students at GEC Bhavnagar. Currently, we're in the midst of developing an exciting project aimed at streamlining sports event management. Through our learning journey, we're integrating cutting-edge technologies to make sporting experiences more seamless and enjoyable.</p>
+        </div>
+    </section>
+
+    <section class="container mx-auto p-10 md:p-20 antialiased ">
+        <h2 class="text-3xl text-center font-bold mb-7 leading-tight text-[#313552] sm:text-4xl lg:text-5xl lg:leading-tight">Meet our Guide</h2>
+        
+            <!-- <h1 class="text-xl text-wrap text-center font-medium text-[#313552] mb-7 md:text-4xl sm:text-2xl">Meet our Guide</h1>   -->
+            <article
+                class=" flex flex-wrap md:flex-nowrap shadow-lg mx-auto max-w-3xl group cursor-pointer transform duration-500 hover:-translate-y-1">
+                <img class="w-full max-h-[400px] object-cover md:w-52" src="../Images/file.jpg" alt="">
+                <div class="">
+                    <div class="p-5 pb-10">
+                        <p class="text-xl text-gray-600 mt-2 leading-relaxed">Mr. Kirit Rathod</p>
+                        <p class="text-xl text-gray-600 mt-2 leading-relaxed">M.E. 4 years experience</p>
+                        <p class="text-xl text-gray-600 mt-2 leading-relaxed">Wireless Network, Data Mining, Operating System</p>
+                    </div>
+  
+                </div>
+            </article>
+    </section>
+
+    <section>
+        <div class="mx-auto max-w-7xl px-2 lg:px-0">
+            <div class="mx-auto max-w-3xl md:text-center">
+              <h2 class="text-3xl text-center font-bold leading-tight text-[#313552] sm:text-4xl lg:text-5xl lg:leading-tight">People who made it successful</h2>
+            </div>
+            <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <div class="mx-auto w-[300px] rounded-md border transform duration-500 hover:-translate-y-1">
+                <img src="../Images/jay-choudhary.enc" alt="jay-choudhary" class="h-[200px] w-full rounded-t-md object-cover" />
+                <div class="p-4">
+                  <h1 class="text-lg font-semibold">Jay Choudhary</h1>
+                  <h6 class="mt-3 font-medium">All over project handling and BackEnd</h6>
+                  <p class="mt-3 text-md text-gray-600">Technologies: Node JS, Express JS, Java</p>
+                </div>
+              </div>
+
+              <div class="mx-auto w-[300px] rounded-md border transform duration-500 hover:-translate-y-1">
+                <img src="../Images/tuxpi.com.1716811351.jpg" alt="kirtan-vala" class="h-[200px] w-full rounded-t-md object-cover" />
+                <div class="p-4">
+                  <h1 class="text-lg font-semibold">Kirtan Vala</h1>
+                  <h6 class="mt-3 font-medium">Prototyping and UI design</h6>
+                  <p class="mt-3 text-md text-gray-600">Technologies: React JS, Figma, JavaScript</p>
+                </div>
+              </div>
+
+              <div class="mx-auto w-[300px] rounded-md border transform duration-500 hover:-translate-y-1">
+                <img src="../Images/vishal-jadav.enc" alt="vishal-jadav" class="h-[200px] w-full rounded-t-md object-cover" />
+                <div class="p-4">
+                  <h1 class="text-lg font-semibold">Vishal Jadav</h1>
+                  <h6 class="mt-3 font-medium">FrontEnd</h6>
+                  <p class="mt-3 text-md text-gray-600">Technologies: React JS, JavaScript</p>
+                </div>
+              </div>
+
+              <div class="mx-auto w-[300px] rounded-md border transform duration-500 hover:-translate-y-1">
+                <img src="../Images/tuxpi.com.1716811445.jpg" alt="jay-kalani" class="h-[200px] w-full rounded-t-md object-cover" />
+                <div class="p-4">
+                  <h1 class="text-lg font-semibold">Jay Kalani</h1>
+                  <h6 class="mt-3 font-medium">FrontEnd</h6>
+                  <p class="mt-3 text-md text-gray-600">Technologies: React JS, JavaScript, Tailwind CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>          
+    </section>
+
+
+
+    
+
+<footer class="bg-[#313552] mt-10">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="" class="flex items-center">
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">EZ Sports</span>
+              </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
+                  <ul class="text-gray-400 font-medium">
+                      <li class="mb-4 hover:underline">EZ Sports
+                      </li>
+                      <li>
+                          <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">Follow us</h2>
+                  <ul class="text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="https://github.com/jk-codes642" class="hover:underline ">Github</a>
+                      </li>
+                      <li>
+                          <a href="https://www.linkedin.com/in/jay-kalani-a7017a2b4/" class="hover:underline">LinkedIn</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
+                  <ul class="text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Privacy Policy</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="text-center">
+            <span class="text-sm sm:text-center text-gray-400">© 2024 <a href="h" class="hover:underline">EZ Sports™</a>. All Rights Reserved.</span>
+        </div>
+      </div>
+    </div>
+</footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../Script/script.js"></script>
+
+    <!-- <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script> -->
+</body>
+</html>
